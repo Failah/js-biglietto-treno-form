@@ -38,3 +38,22 @@ ticketGeneratorButton.addEventListener("click",
 )
 
 
+ticketGeneratorButton.addEventListener("click",
+    function () {
+        let wagonRandom = Math.floor(Math.random() * 10);
+        document.getElementById("wagon_number").innerHTML = wagonRandom;
+    }
+)
+
+ticketGeneratorButton.addEventListener("click",
+    function () {
+        let codeRandom = Math.floor(Math.random() * 10001);
+        document.getElementById("code_number").innerHTML = codeRandom;
+    }
+)
+
+ticketGeneratorButton.addEventListener("click",
+    function () {
+        document.getElementById("ticket_display").classList.add("d-block");
+    }
+)

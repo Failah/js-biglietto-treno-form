@@ -14,3 +14,7 @@ body {
     width: 900px;
     height: 200px;
 }
+
+.vs-display-none {
+    display: none;
+}
