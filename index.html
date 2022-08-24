@@ -14,22 +14,23 @@
 
 <body>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center my-3">
+        <div class="row justify-content-center mt-3 rounded-4 vs-bg-red">
+            <div class="col-12 text-center text-white mb-3 mt-5 h4">
                 PRENOTA IL TUO TICKET IN POCHI PASSAGGI!
             </div>
-            <div class="text-center col-3">
-                <input type="text" name="kilometers" id="km_input" placeholder="Quanti km devi percorrere?" />
+            <div class="text-center col-3 mb-4">
+                <input type="text" name="kilometers" id="km_input" placeholder="Km di percorrenza?" />
             </div>
-            <div class="text-center col-3">
-                <input type="text" name="age" id="age_input" placeholder="Quanti anni hai?" />
+            <div class="text-center col-3 mb-4">
+                <input type="text" name="age" id="age_input" placeholder="Età passeggero?" />
+            </div>
+            <div class="row justify-content-center">
+                <div class="text-center col-3 mt-4 mb-5">
+                    <button id="ticket_generator">Genera Ticket</button>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="text-center col-3 my-3">
-                <button id="ticket_generator">Genera Ticket</button>
-            </div>
-        </div>
+
         <div id="ticket"></div>
     </div>
 
