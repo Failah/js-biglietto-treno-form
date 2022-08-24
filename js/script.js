@@ -27,17 +27,3 @@ ticketGeneratorButton.addEventListener("click",
     }
 )
 
-// if (!isNaN(km) && !isNaN(age)) {
-//     let ticketPriceCurrent = 0;
-//     if (age < 18) {
-//         ticketPriceCurrent = ticketPrice * 4 / 5;
-//     } else if (age > 64) {
-//         ticketPriceCurrent = ticketPrice * 3 / 5;
-//     } else {
-//         ticketPriceCurrent = ticketPrice;
-//     }
-//     document.getElementById("price").innerHTML = ticketPriceCurrent.toFixed(2) + " Euro";
-// }
-// else {
-//     document.getElementById("price").innerHTML = "Non hai inserito un numero!";
-// }
