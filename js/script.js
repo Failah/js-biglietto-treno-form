@@ -27,3 +27,7 @@ ticketGeneratorButton.addEventListener("click",
     }
 )
 
+const nameInput = document.getElementById("name_input");
+
+
+
