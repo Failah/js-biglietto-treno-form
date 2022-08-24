@@ -27,7 +27,14 @@ ticketGeneratorButton.addEventListener("click",
     }
 )
 
+
 const nameInput = document.getElementById("name_input");
 
+ticketGeneratorButton.addEventListener("click",
+    function () {
+        const nameValue = nameInput.value;
+        document.getElementById("customer_name").innerHTML = nameValue;
+    }
+)
 
 
