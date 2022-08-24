@@ -5,3 +5,12 @@ body {
 .vs-bg-red {
     background-color: #c03;
 }
+
+.vs-bg-grey {
+    background-color: #dee2e6;
+}
+
+.vs-ticket-size {
+    width: 900px;
+    height: 200px;
+}

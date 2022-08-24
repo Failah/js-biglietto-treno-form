@@ -19,10 +19,10 @@ ticketGeneratorButton.addEventListener("click",
             } else {
                 ticketPriceCurrent = ticketPrice;
             }
-            document.getElementById("ticket").innerHTML = ticketPriceCurrent.toFixed(2) + " Euro";
+            document.getElementById("ticket_price").innerHTML = ticketPriceCurrent.toFixed(2) + " Euro";
         }
         else {
-            document.getElementById("ticket").innerHTML = "Non hai inserito un numero!";
+            document.getElementById("ticket_price").innerHTML = "Non hai inserito un numero!";
         }
     }
 )
